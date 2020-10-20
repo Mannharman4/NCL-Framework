@@ -1,0 +1,105 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-20T18:19:38.368Z",
+        "before": [
+          {
+            "result": {
+              "duration": 543800,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.start(Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Client filters cruises by destination and price",
+        "description": "",
+        "id": "filtering-cruises;client-filters-cruises-by-destination-and-price",
+        "after": [
+          {
+            "result": {
+              "duration": 16100,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.end(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Client searches for\"\u003cString\u003e\" on \"\u003cString\u003e\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "sees a \"\u003cString\u003e\" on the first dispalyed cruise",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "the cleint selects \"\u003cString\u003e\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "navigates to \"\u003cString\u003e\" section",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "at least one Category Meta \"\u003cstring\u003e\" should match the adverised \"\u003cstring\u003e\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "filtering cruises",
+    "description": "",
+    "id": "filtering-cruises",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/ncl.feature",
+    "tags": [
+      {
+        "name": "@tag1",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
